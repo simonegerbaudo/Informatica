@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Richiesta dati personali</title>
+</head>
+<body>
+    <form method="POST" action="DatiPersonali.php">
+        Cognome: <input type="text" size="12" maxlenght="24" name="cognome"><br>
+        Nome: &nbsp&nbsp&nbsp&nbsp <input type="text" size="12" maxlength="24" name="nome"><br><br>
+        Sesso:<br>
+        Maschio: &nbsp<input type="radio" value="maschio" name="sesso"><br><br>
+        Scegli fra i cibi che preferisci:<br>
+        Bistecca: <input type="checkbox" value="bistecca" name="cibo[]"><br>
+        Pizza: nbsp&nbsp&nbsp&nbsp <input type="checkbox" value="pizza" name="cibo[]"><br>
+        Pollo: nbsp&nbsp&nbsp&nbsp <input type="checkbox" value="pollo" name="cibo[]"><br>
+        <textarea rows="5" cols="20" name="citazioni">
+            Inserisci la tua citazione preferita!
+        </textarea><br><br>
+        Seleziona il tuo livello di istruzione scolastica:<br>
+        <select name="istruzione">
+            <option value="scuola media">Medie</option>
+            <option value="scuola superiore">Superiori</option>
+            <option value="universita">Studi universitari</option>
+        </select><br><br>
+        <select name="partegiorno" size="3">
+            <option value="mattino">Mattino</option>
+            <option value="pomeriggio">Pomeriggio</option>
+            <option value="notte">Notte</option>
+        </select><br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Ok">
+    </form>
+</body>
+</html>
