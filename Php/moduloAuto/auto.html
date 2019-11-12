@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelli Auto</title>
+</head>
+<body>
+    <form form="f1" action="inserisciAuto.php" method="get">
+        <h1>Auto</h1>
+        Cognome:&nbsp;<input type="text" name="cognome" value="cognome"/></br>
+        Nome:&nbsp;<input type="text" name="nome" value="name"/></br>
+        Email:&nbsp;<input type="email" name="email" value="email"/></br>
+        Password:&nbsp;<input type="password" name="password" value="passsssss"/></br>
+
+        Marca:&nbsp;
+        <select name="marca">
+            <option value="1">FIAT</option>
+            <option value="2">BMW</option>
+            <option value="3">PEGUOT</option>
+            <option value="4">RENAULT</option>
+        </select><br>
+
+        Tipo modello:&nbsp;
+        <input type="radio" name="modello" value="1"/>Berlina&nbsp;
+        <input type="radio" name="modello" value="2"/>Spider &nbsp;
+        <input type="radio" name="modello" value="3"/>Suv </br>
+
+        Optional:
+        <input type="checkbox" name="optional" value="1"/>ABS&nbsp;
+        <input type="checkbox" name="optional" value="2"/>Clima&nbsp;
+        <input type="checkbox" name="optional" value="3"/>Bluetooth&nbsp;
+        <input type="checkbox" name="optional" value="4"/>Navigatore&nbsp;
+        <input type="checkbox" name="optional" value="5"/>Cruise control</br>
+
+        Immagine:&nbsp;<input type="file" name="nomefile"><br>
+
+        Invia: <input type="submit" name="bInvia" value="invia"/>
+    </form>
+</body>
+</html>
