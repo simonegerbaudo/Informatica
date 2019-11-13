@@ -26,10 +26,11 @@
         echo "modello: " . $modello . "</br>";
 
         echo "optional: ";
-
+		echo "<br>";
+		
         foreach($optional as $opt)
         {
-            echo $opt . ",";
+            echo $opt;
         }
     }
 ?>
